@@ -1,0 +1,12 @@
+Q1
+select *
+from Employees
+
+Q2
+select FirstName, LastName, Birthdate, Address, City, State
+from Employees
+Where Birthdate='1965-03-03'
+
+Q3
+select * from Tracks
+limit 20
